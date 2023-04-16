@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- todo -->
+      <div id="todo" class="todo-header">
+        <h2>My To Do List</h2>
+        <div class="todo-input">
+          <input type="text" id="myInput" placeholder="Today, I want to..." />
+          <span id="addBtn">Add Task</span>
+        </div>
+      </div>
+      <div>
+        <ul id="todo-ul">
+          <li class="todo-li">
+            <div class="todo-btn">
+              <p class="todo-task">Check Mail</p>
+              <div>
+                <button class="star">
+                  <i class="fa-regular fa-star"></i>
+                </button>
+                <button class="done">Done</button>
+                <button class="remove">Delete</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="task">
+        <!-- priority -->
+        <div class="priority">
+          <h2 class="priority-header">My priority</h2>
+          <ul class="priorityUl">
+            <!-- <div class="d-flex">
+              <p>Learning JS</p>
+              <i class="fa-solid fa-xmark close-btn"></i>
+            </div>
+            <div class="d-flex">
+              <p>Reading book</p>
+              <i class="fa-solid fa-xmark close-btn"></i>
+            </div> -->
+          </ul>
+        </div>
+        <!-- done -->
+        <div id="done">
+          <h1 class="done-header">What I have done</h1>
+          <ul id="ulDone">
+            <!-- <div class="d-flex"> -->
+            <!-- <p>Learning JS</p>
+              <i class="fa-solid fa-xmark close-btn"></i> -->
+            <!-- </div> -->
+            <!-- <div class="d-flex"> -->
+            <!-- <p>Reading book</p>
+              <i class="fa-solid fa-xmark close-btn"></i> -->
+            <!-- </div> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <template>
+      <li class="todo-li">
+        <div class="todo-btn">
+          <p class="todo-task">Check Mail</p>
+          <div>
+            <button class="star"><i class="fa-regular fa-star"></i></button>
+            <button class="done">Done</button>
+            <button class="remove">Delete</button>
+          </div>
+        </div>
+      </li>
+    </template>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.d-flex {
+  display: flex;
+}
+.header {
+  margin: 0px 30px;
+}
+.header-logo {
+  width: 30px;
+  height: 30px;
+}
+ul li {
+  list-style: none;
+}
+.header {
+  justify-content: space-between;
+}
+.header-nav,
+.header-icons {
+  gap: 30px;
+}
+.header-select {
+  background-color: gray;
+  width: 200px;
+  text-align: center;
+}
+.header-icons span {
+  margin-right: 6px;
+}
+.drop-icon {
+  margin-right: 4px;
+}

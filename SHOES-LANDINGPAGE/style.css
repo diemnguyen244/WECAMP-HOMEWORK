@@ -1,0 +1,118 @@
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Header */
+.header {
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.header-logo {
+  width: 91px;
+  height: 65px;
+}
+.header-right {
+  gap: 40px;
+}
+header .nav {
+  list-style: none;
+  font-size: 12px;
+  letter-spacing: 3px;
+
+  gap: 20px;
+}
+.header-icons {
+  gap: 20px;
+}
+.header-grid {
+  font-size: 24px;
+  color: white;
+  background-color: #000000;
+  padding: 20px;
+  padding-left: 30px;
+  border-bottom-left-radius: 40px;
+}
+.main {
+  margin-right: 55px;
+  margin-bottom: 55px;
+}
+.content {
+  font-size: 12px;
+  margin-left: 66px;
+  margin-bottom: 16px;
+}
+.product {
+  display: flex;
+}
+.product-left {
+  flex: 2 1;
+  align-self: center;
+}
+.product-right {
+  width: 100%;
+  flex: 1 1;
+  text-align: center;
+}
+.main-relative {
+  position: relative;
+  margin: 0px auto;
+}
+.rounded {
+  background-color: #b5b5b5d6;
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+
+.product-img {
+  position: absolute;
+  bottom: 20%;
+  height: 322px;
+  width: 563px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  padding-bottom: 20px;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 100px;
+}
+.btn {
+  font-size: 18px;
+  background-color: #050505;
+  color: white;
+  font-size: 18px;
+  border-radius: 92px;
+  padding: 11px 35px;
+  margin-bottom: 15px;
+}
+.main-icons i {
+  margin: 0px 10px;
+}
+.footer-icons {
+  text-align: center;
+}
+.footer-icons i {
+  font-size: 18px;
+
+  margin-right: 4px;
+}

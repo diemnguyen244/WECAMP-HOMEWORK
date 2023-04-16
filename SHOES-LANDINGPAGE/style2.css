@@ -1,0 +1,143 @@
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Header */
+.header {
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.header-logo {
+  width: 91px;
+  height: 65px;
+}
+.header-right {
+  gap: 40px;
+}
+header .nav {
+  list-style: none;
+  font-size: 12px;
+  letter-spacing: 3px;
+
+  gap: 20px;
+}
+.header-icons {
+  gap: 20px;
+}
+.header-grid {
+  font-size: 24px;
+  color: white;
+  background-color: #000000;
+  padding: 20px;
+  padding-left: 30px;
+  border-bottom-left-radius: 40px;
+}
+.main {
+  margin-right: 55px;
+  margin-left: 102px;
+  margin-bottom: 55px;
+}
+.content {
+  font-size: 12px;
+  margin-left: 66px;
+  margin-bottom: 16px;
+}
+
+.product-left {
+  flex: 2 1;
+  align-self: center;
+}
+.product-right {
+  width: 100%;
+  flex: 1 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.product-img {
+  bottom: 20%;
+  height: 322px;
+  width: 625px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 21px;
+}
+.product-prize {
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+.btn {
+  font-size: 18px;
+  background-color: #050505;
+  color: white;
+  font-size: 18px;
+  border-radius: 92px;
+  padding: 11px 35px;
+  margin-bottom: 32px;
+}
+.main-icons i {
+  margin-right: 6px;
+  margin-bottom: 32px;
+}
+.product-select {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.size-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 13px;
+  margin-bottom: 33px;
+}
+.grid-item {
+  border-style: solid;
+  width: 33px;
+  height: 30px;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.circle i {
+  font-size: 33px;
+  margin-right: 14px;
+  border-radius: 50%;
+}
+.circle-2 {
+  background-color: #000000;
+}
+.circle-3 {
+  background-color: #b64c4c;
+  border: none;
+  outline: none;
+}
+
+.footer-icons {
+  text-align: center;
+}
+.footer-icons i {
+  font-size: 18px;
+
+  margin-right: 4px;
+}
